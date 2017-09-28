@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="calc.js"></script>
+    <script src="calccontroller.js"></script>
+</head>
+<body>
+    <h1>MY CALCULATOR</h1>
+    <table border="2">
+       <tr>
+           <td><label for="">first number</label></td>
+           <td><input type="text" id="firstno"></td>
+       </tr>
+        <tr>
+            
+            <td><label for="">second number</label></td>
+            <td><input type="text" id="secondno"></td>
+        </tr>
+        <tr colspan="2">
+            <table>
+                <tr >
+                    <td><button class="opr">+</button></td>
+                    <td><button class="opr">-</button></td>
+                    <td><button class="opr">*</button></td>
+                    <td><button class="opr">/</button></td>
+                    <td><button id="clear">clear</button></td>
+                </tr>
+            </table>
+        </tr>
+    </table>
+    <h1>Result is <span id="result"></span></h1>
+</body>
+</html>
